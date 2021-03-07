@@ -49,6 +49,9 @@ Example usage: let knight = new Character("knight");
 Inventory constructor
 	properties
 		items: []
+    
+
+
 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
