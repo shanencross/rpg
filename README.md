@@ -31,9 +31,28 @@ OR
 ## Known Bugs
 * No known bugs
 ## Notes
-* 
+Character constructor
+	parameters: className
+	properties:
+		HP (Health points):
+		MP (Magic points):
+		Strength:
+		Defense:
+		Intelligence:
+		Agility:
+		EquippedWeapon:
+		EquippedArmor:
+		Inventory
+
+Example usage: let knight = new Character("knight");
+
+Inventory constructor
+	properties
+		items: []
+
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
-* Copyright 2021 Sofia Acosta
+* Copyright 2021 Sofia Acosta and Shanen Cross
 ## Contact
 Sofia Acosta sofiaacostarascon@gmail.com
+Shanen Cross shanencross@yahoo.com
