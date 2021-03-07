@@ -8,5 +8,9 @@ export default function Character (characterType) {
 	} else if (characterType === "thief") {
 		this.hp = 50;
 		this.mp = 50;
+		this.strength = 10;
+		this.defense = 15;
+		this.agility = 100
+		this.intelligence = 50;
 	}
 }
