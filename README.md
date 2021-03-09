@@ -47,8 +47,10 @@ Character constructor
 Example usage: let knight = new Character("knight");
 
 Inventory constructor
-	properties
-		items: []
+	properties:
+		items: Map object with item names as keys and item count as numbers
+	methods:
+		addItem(itemName)
     
 
 
