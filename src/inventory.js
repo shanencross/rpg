@@ -3,5 +3,5 @@ export default function Inventory() {
 }
 
 Inventory.prototype.addItem = function() {
-	return "i dont work yet";
+	this.items.set("sword",1);
 };

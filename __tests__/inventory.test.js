@@ -11,11 +11,5 @@ describe ('Inventory', () => {
 		let myInventory = new Inventory ();
 		myInventory.addItem("sword"); 
 		expect(myInventory.items.get("sword")).toEqual(1);
-		/*
-		make the inventory
-		add a "sword" item to the inventory
-		items { "sword": 1 }
-		expect(inventory.items["sword"]).toEquals(1)
-		*/
 	});
 });
