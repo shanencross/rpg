@@ -1,7 +1,7 @@
 # Your Own RPG
 #### A project to practice Test Driven Development 
 #### Project initiated: 03-07-2021
-#### By Sofia Acosta and Shanen Cross
+#### By Sofia Acosta, Shanen Cross, and HR Williams
 ## Project Description
 An RPG (Role Playing Game) is a game where players assume the roles of characters in a fictional world. Build and fully unit test the business logic for 
 ## Specs
@@ -57,7 +57,7 @@ Inventory constructor
 
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
-* Copyright 2021 Sofia Acosta and Shanen Cross
+* Copyright 2021 Sofia Acosta, Shanen Cross, and HR Williams
 ## Contact
 Sofia Acosta sofiaacostarascon@gmail.com
 Shanen Cross shanencross@yahoo.com
