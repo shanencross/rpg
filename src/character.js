@@ -1,5 +1,5 @@
 export default class Character {
-	constructor (characterType) {
+	constructor(characterType) {
 		if (characterType === "knight") {
 			this.hp = 80;
 			this.mp = 50;
