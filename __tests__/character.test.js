@@ -1,49 +1,52 @@
-import Character from './../src/character.js'; 
+// import Character from './../src/character.js';
+import knight from './../src/characterRoles/knight.js';
+import mage from './../src/characterRoles/mage.js';
+import thief from './../src/characterRoles/thief.js';
 
 describe ('Character', () => {
-	let knight;
-	let mage;
-	let thief;
+	let someKnight;
+	let someMage;
+	let someThief;
 	beforeEach(() => {
-		knight = new Character("knight");
-	  mage = new Character("mage");
-	  thief = new Character("thief");
+		someKnight = knight();
+	  someMage = mage();
+	  someThief = thief();
 	});
 
   test ('should correctly create a character object for a knight with different hp 80 and mp 50 vlaues', () => {
-		expect(knight.hp).toEqual(80);
-		expect(knight.mp).toEqual(50);
+		expect(someKnight.hp).toEqual(80);
+		expect(someKnight.mp).toEqual(50);
 	}); 
 	
 	test ('should create a knight character with the correct stats values (Strength of 200, Defense of 100, Agility of 5, Intelligence of 5)', () => {
-		expect(knight.strength).toEqual(200);
-		expect(knight.defense).toEqual(100);
-		expect(knight.agility).toEqual(5);
-		expect(knight.intelligence).toEqual(5);
+		expect(someKnight.strength).toEqual(200);
+		expect(someKnight.defense).toEqual(100);
+		expect(someKnight.agility).toEqual(5);
+		expect(someKnight.intelligence).toEqual(5);
 	});
 
 	test ('should correctly create a character object for a mage with different hp 30 and mp 150 vlaues', () => {
-		expect(mage.hp).toEqual(30);
-		expect(mage.mp).toEqual(150);
+		expect(someMage.hp).toEqual(30);
+		expect(someMage.mp).toEqual(150);
 	});
 
 	test ('should create a mage character with the correct stats values (Strength of 40, Defense of 20, Agility of 70, Intelligence of 200)', () => {
-		expect(mage.strength).toEqual(40);
-		expect(mage.defense).toEqual(20);
-		expect(mage.agility).toEqual(70);
-		expect(mage.intelligence).toEqual(200);
+		expect(someMage.strength).toEqual(40);
+		expect(someMage.defense).toEqual(20);
+		expect(someMage.agility).toEqual(70);
+		expect(someMage.intelligence).toEqual(200);
 	});
 
 
 	test ('should correctly create a character object for a thief with different hp 30 and mp 150 vlaues', () => {
-		expect(thief.hp).toEqual(50);
-		expect(thief.mp).toEqual(50);
+		expect(someThief.hp).toEqual(50);
+		expect(someThief.mp).toEqual(50);
 	});
 
 	test ('should create a thief character with the correct stats values (Strength of 10, Defense of 15, Agility of 100, Intelligence of 50)', () => {
-		expect(thief.strength).toEqual(10);
-		expect(thief.defense).toEqual(15);
-		expect(thief.agility).toEqual(100);
-		expect(thief.intelligence).toEqual(50);
+		expect(someThief.strength).toEqual(10);
+		expect(someThief.defense).toEqual(15);
+		expect(someThief.agility).toEqual(100);
+		expect(someThief.intelligence).toEqual(50);
 	});
 });
