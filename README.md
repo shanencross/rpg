@@ -1,9 +1,10 @@
-# Your Own RPG
-#### A project to practice Test Driven Development 
-#### Project initiated: 03-07-2021
+# Your Own RPG: Functional Edition
+#### Learning project for Epicodus - Re-factoring objected RPG project into functional project
 #### By Sofia Acosta, Shanen Cross, and HR Williams
+
 ## Project Description
-An RPG (Role Playing Game) is a game where players assume the roles of characters in a fictional world. Build and fully unit test the business logic for 
+An RPG (Role Playing Game) is a game where players assume the roles of characters in a fictional world. For this project, we are re-factoring code from an object-oriented RPG project to use functional programming instead.
+
 ## Specs
  
 ```
@@ -20,8 +21,9 @@ Logic should include:
 * Javascript
 * CSS
 * JQuery
+
 ## Set up / Installation requirements
-* Download a .zip copy of this repository:https://github.com/Sofacosta/rpg by clicking the green "code" button. 
+* Download a .zip copy of this repository:https://github.com/shanencross/rpg by clicking the green "code" button. 
 * Launch the index.html file into your browser
  
 OR
