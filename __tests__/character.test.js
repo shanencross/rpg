@@ -8,9 +8,9 @@ describe ('Character', () => {
 	let someMage;
 	let someThief;
 	beforeEach(() => {
-		someKnight = knight();
-	  someMage = mage();
-	  someThief = thief();
+		someKnight = knight("Jon");
+	  someMage = mage("Tim");
+	  someThief = thief("Bob");
 	});
 
   test ('should correctly create a character object for a knight with different hp 80 and mp 50 vlaues', () => {
