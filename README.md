@@ -2,7 +2,7 @@
 #### Learning project for Epicodus - Re-factoring objected RPG project into functional project
 #### By Sofia Acosta, Shanen Cross, and HR Williams
 
-## Project Description
+s## Project Description
 An RPG (Role Playing Game) is a game where players assume the roles of characters in a fictional world. For this project, we are re-factoring code from an object-oriented RPG project to use functional programming instead.
 
 ## Specs
